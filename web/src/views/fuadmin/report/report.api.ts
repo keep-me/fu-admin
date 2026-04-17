@@ -75,25 +75,43 @@ export function getRoleDistribution() {
 }
 
 export function exportUserTrend(days: number = 30) {
-  return defHttp.get({ url: Api.ExportUserTrend, params: { days }, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportUserTrend, params: { days } },
+    { isReturnNativeResponse: true }
+  );
 }
 
 export function exportUserDistribution() {
-  return defHttp.get({ url: Api.ExportUserDistribution, {}, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportUserDistribution },
+    { isReturnNativeResponse: true }
+  );
 }
 
 export function exportLogOperation(days: number = 30) {
-  return defHttp.get({ url: Api.ExportLogOperation, params: { days }, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportLogOperation, params: { days } },
+    { isReturnNativeResponse: true }
+  );
 }
 
 export function exportLogLogin(days: number = 30) {
-  return defHttp.get({ url: Api.ExportLogLogin, params: { days }, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportLogLogin, params: { days } },
+    { isReturnNativeResponse: true }
+  );
 }
 
 export function exportDept() {
-  return defHttp.get({ url: Api.ExportDept, {}, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportDept },
+    { isReturnNativeResponse: true }
+  );
 }
 
 export function exportRole() {
-  return defHttp.get({ url: Api.ExportRole, {}, { isReturnNativeResponse: true });
+  return defHttp.get(
+    { url: Api.ExportRole },
+    { isReturnNativeResponse: true }
+  );
 }

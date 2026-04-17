@@ -2,7 +2,7 @@
 # ************** mysql数据库 配置  ************** #
 # ================================================= #
 # 数据库类型 MYSQL/SQLSERVER/SQLITE3/POSTGRESQL
-DATABASE_TYPE = "POSTGRESQL"
+DATABASE_TYPE = "SQLITE3"
 # 数据库地址
 DATABASE_HOST = "127.0.0.1"
 # 数据库端口
